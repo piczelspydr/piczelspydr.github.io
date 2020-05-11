@@ -8,17 +8,23 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 1.5em 0 0 0;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 1.2;
+	font-family: 'Oxanium', cursive;
 }
 
 p {
 	margin: 1.5em 0 0 0;
 	font-size: 1.25em;
+	font-weight: 400;
 	font-family: 'Montserrat', cursive;
 }
 
 h1 {
+	font-size: 3em;
+}
+
+h2 {
 	font-size: 2em;
 }
 
@@ -33,10 +39,4 @@ code {
 	background-color: #f0f0f0;
 	padding: 0.2em 0.4em;
 	border-radius: 2px;
-}
-
-@media (min-width: 400px) {
-	body {
-		font-size: 16px;
-	}
 }
